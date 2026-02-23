@@ -154,3 +154,16 @@
 554	631	7935709127499677	CMakeFiles/appSGPL.dir/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp.obj	fc9d9934bef218da
 549	2903	7935709127449495	CMakeFiles/appSGPL.dir/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp.obj	bd45728d906dc1f9
 2903	3370	7935709150995348	appSGPL.exe	81df8080a80429f
+50	99	7935709725687184	.qt/appSGPL_qml.txt	9cf1b7cf234db6e5
+50	99	7935709725687184	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/appSGPL_qml.txt	9cf1b7cf234db6e5
+59	243	7935709727107690	.qt/qml_imports/appSGPL_build.cmake	f48b740a742abea6
+59	243	7935709727107690	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/qml_imports/appSGPL_build.cmake	f48b740a742abea6
+251	292	7935709727616850	.qt/rcc/qrc_appSGPL_raw_qml_0.cpp	8315342139418fe6
+251	292	7935709727616850	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp	8315342139418fe6
+243	518	7935709729789337	.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp	bf9180d736f29514
+243	518	7935709729789337	.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp.aotstats	bf9180d736f29514
+243	518	7935709729789337	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp	bf9180d736f29514
+243	518	7935709729789337	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp.aotstats	bf9180d736f29514
+522	599	7935709729990085	CMakeFiles/appSGPL.dir/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp.obj	fc9d9934bef218da
+518	2805	7935709729948242	CMakeFiles/appSGPL.dir/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp.obj	bd45728d906dc1f9
+2805	3239	7935709752827711	appSGPL.exe	81df8080a80429f
