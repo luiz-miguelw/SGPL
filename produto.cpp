@@ -46,3 +46,5 @@ void Produto::atualizarStatusEncomenda() {
         emit sobEncomendaChanged(); // Avisa o sistema da mudança
     }
 }
+
+

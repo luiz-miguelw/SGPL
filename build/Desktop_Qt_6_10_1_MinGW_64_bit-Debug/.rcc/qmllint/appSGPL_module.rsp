@@ -1,10 +1,10 @@
 -I
-C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug
+D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug
 -I
 C:/Qt/6.10.1/mingw_64/qml
 --resource
-C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_SGPL.qrc
+D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_SGPL.qrc
 --resource
-C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appSGPL_raw_qml_0.qrc
+D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appSGPL_raw_qml_0.qrc
 --module
 SGPL

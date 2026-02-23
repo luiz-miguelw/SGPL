@@ -3,8 +3,9 @@ import QtQuick.Controls
 import QtQuick.Layouts
 
 Window {
-    width: 400
-    height: 600
+    id: mainWindow
+    width: 450
+    height: 700
     visible: true
     title: "SGPL - Gestão de Catálogo"
     color: "#f4f4f4"
@@ -18,23 +19,23 @@ Window {
             text: "Vitrine de Produtos"
             font.pixelSize: 24
             font.bold: true
-            color: "#b22222" // Vermelho fogo/churrasco
+            color: "#b22222"
         }
 
-        // Lista de Produtos
+        // --- LISTAGEM DE PRODUTOS ---
         ListView {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            model: catalogo.produtos // Usa a lista que injetamos no main.cpp
+            model: catalogo.produtos
             clip: true
             spacing: 10
 
             delegate: Rectangle {
-                width: parent.width
+                width: ListView.view.width
                 height: 80
                 color: "white"
                 radius: 8
-                border.color: modelData.sobEncomenda ? "#ffa500" : "#ddd" // Laranja se for encomenda
+                border.color: modelData.sobEncomenda ? "#ffa500" : "#ddd"
                 border.width: 2
 
                 RowLayout {
@@ -53,7 +54,8 @@ Window {
                         }
                     }
 
-                    Item { Layout.fillWidth: true } // Isso substitui o Spacer e empurra o estoque para a direita
+                    Item { Layout.fillWidth: true }
+
                     ColumnLayout {
                         Layout.alignment: Qt.AlignRight
                         Text {
@@ -61,7 +63,6 @@ Window {
                             font.pixelSize: 12
                             color: modelData.estoque > 0 ? "green" : "red"
                         }
-                        // Badge de Status (Regra de Negócio Visível)
                         Rectangle {
                             width: 100; height: 20
                             radius: 10
@@ -78,14 +79,111 @@ Window {
                 }
             }
         }
+    }
 
-        // Botão Simples para teste
-        Button {
-            Layout.fillWidth: true
-            text: "Adicionar Novo Sabor (Teste)"
-            onClicked: {
-                // Chama a função do C++ diretamente!
-                catalogo.adicionarProduto("Pão de Alho com Queijo", 18.90, 5)
+    // --- BOTÃO FLUTUANTE DE ADICIONAR (+) ---
+    RoundButton {
+        text: "+"
+        font.pixelSize: 28
+        width: 60
+        height: 60
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+        anchors.margins: 25
+        palette.button: "#b22222"
+        palette.buttonText: "white"
+
+        // Ao clicar, abre a janela de cadastro
+        onClicked: janelaCadastro.open()
+    }
+
+    // --- JANELA DE CADASTRO (POPUP MODAL) ---
+    Popup {
+        id: janelaCadastro
+        width: 320
+        height: 300
+        anchors.centerIn: parent
+        modal: true // Escurece o fundo e bloqueia cliques fora
+        focus: true
+        closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutside
+
+        background: Rectangle {
+            color: "white"
+            radius: 10
+            border.color: "#ccc"
+        }
+
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 20
+            spacing: 15
+
+            Text {
+                text: "Novo Produto"
+                font.bold: true
+                font.pixelSize: 20
+                Layout.alignment: Qt.AlignHCenter
+            }
+
+            TextField {
+                id: inputNome
+                Layout.fillWidth: true
+                placeholderText: "Nome do produto"
+            }
+
+            TextField {
+                id: inputPreco
+                Layout.fillWidth: true
+                placeholderText: "Preço (ex: 15.50)"
+                validator: RegularExpressionValidator { regularExpression: /^[0-9]+(\.[0-9]{1,2})?$/ }
+            }
+
+            TextField {
+                id: inputEstoque
+                Layout.fillWidth: true
+                placeholderText: "Estoque inicial"
+                validator: IntValidator { bottom: 0 }
+            }
+
+            // Botoes de Ação
+            RowLayout {
+                Layout.fillWidth: true
+                Layout.alignment: Qt.AlignRight
+                spacing: 10
+                Layout.topMargin: 10
+
+                Button {
+                    text: "Cancelar"
+                    onClicked: {
+                        janelaCadastro.close()
+                    }
+                }
+
+                Button {
+                    text: "Salvar"
+                    palette.button: "#2e7d32" // Verde
+                    palette.buttonText: "white"
+                    onClicked: {
+                        // Só salva se os campos estiverem preenchidos
+                        if (inputNome.text !== "" && inputPreco.text !== "" && inputEstoque.text !== "") {
+
+                            // 1. Envia para o C++
+                            catalogo.adicionarProduto(
+                                inputNome.text,
+                                parseFloat(inputPreco.text),
+                                parseInt(inputEstoque.text)
+                            )
+
+                            // 2. Limpa os campos para o próximo uso
+                            inputNome.text = ""
+                            inputPreco.text = ""
+                            inputEstoque.text = ""
+
+                            // 3. Fecha a janela com sucesso
+                            janelaCadastro.close()
+                        }
+                    }
+                }
             }
         }
     }

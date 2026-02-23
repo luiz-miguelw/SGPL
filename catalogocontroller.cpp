@@ -4,7 +4,7 @@ CatalogoController::CatalogoController(QObject *parent)
     : QObject(parent)
 {
     // DADOS DE TESTE INICIAIS
-    // Assim que o sistema abrir, já teremos dois produtos cadastrados.
+    // Assim Sque o sistema abrir, já teremos dois produtos cadastrados.
     // Note que o segundo tem estoque ZERO, então o seu sistema já deve
     // classificá-lo automaticamente como "Sob Encomenda"!
     adicionarProduto("Pão de Alho Tradicional", 15.00, 10);

@@ -1,5 +1,5 @@
-C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/EWIEGA46WW/moc_produto.cpp: C:/SGPL/SGPL/produto.h \
-  C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h \
+D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/EWIEGA46WW/moc_produto.cpp: D:/final_project/SGPL/produto.h \
+  D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h \
   C:/Qt/6.10.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h \
