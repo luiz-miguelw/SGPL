@@ -1,5 +1,5 @@
-C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/EWIEGA46WW/moc_catalogocontroller.cpp: C:/SGPL/SGPL/catalogocontroller.h \
-  C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h \
+D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/EWIEGA46WW/moc_catalogocontroller.cpp: D:/final_project/SGPL/catalogocontroller.h \
+  D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h \
   C:/Qt/6.10.1/mingw_64/include/QtCore/QList \
   C:/Qt/6.10.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
@@ -312,4 +312,4 @@ C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/EWIEGA46
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/SGPL/SGPL/produto.h
+  D:/final_project/SGPL/produto.h

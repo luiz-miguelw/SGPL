@@ -18,6 +18,8 @@ qt_add_qml_module(appSGPL
         Main.qml
         SOURCES produto.h produto.cpp
         SOURCES catalogocontroller.h catalogocontroller.cpp
+        QML_FILES MenuPrincipal.qml
+        QML_FILES VitrineProdutos.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

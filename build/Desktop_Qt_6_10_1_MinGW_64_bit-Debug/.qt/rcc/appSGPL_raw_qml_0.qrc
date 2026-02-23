@@ -1,6 +1,8 @@
 <RCC>
   <qresource prefix="/qt/qml/SGPL/">
-    <file alias="Main.qml">C:/SGPL/SGPL/Main.qml</file>
+    <file alias="Main.qml">D:/final_project/SGPL/Main.qml</file>
+    <file alias="MenuPrincipal.qml">D:/final_project/SGPL/MenuPrincipal.qml</file>
+    <file alias="VitrineProdutos.qml">D:/final_project/SGPL/VitrineProdutos.qml</file>
   </qresource>
 </RCC>
 

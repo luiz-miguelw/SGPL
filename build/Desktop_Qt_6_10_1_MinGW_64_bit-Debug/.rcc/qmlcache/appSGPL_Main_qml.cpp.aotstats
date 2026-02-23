@@ -6,127 +6,15 @@
                 {
                     "entries": [
                         {
-                            "codegenResult": 0,
+                            "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 184,
-                            "functionName": "fill",
-                            "line": 13,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 20,
-                            "durationMicroseconds": 334,
-                            "functionName": "model",
-                            "line": 28,
-                            "message": "Cannot access value for name catalogo"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 64,
-                            "functionName": "width",
-                            "line": 33,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 117,
-                            "functionName": "color",
-                            "line": 37,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 37,
-                            "functionName": "fill",
-                            "line": 41,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 35,
-                            "durationMicroseconds": 148,
-                            "functionName": "text",
-                            "line": 46,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 35,
-                            "durationMicroseconds": 141,
-                            "functionName": "text",
-                            "line": 51,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
-                            "durationMicroseconds": 49,
-                            "functionName": "alignment",
-                            "line": 58,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 35,
-                            "durationMicroseconds": 143,
-                            "functionName": "text",
-                            "line": 60,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 144,
-                            "functionName": "color",
-                            "line": 62,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 108,
-                            "functionName": "color",
-                            "line": 68,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 39,
-                            "durationMicroseconds": 130,
-                            "functionName": "text",
-                            "line": 71,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 128,
-                            "functionName": "color",
-                            "line": 74,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 40,
-                            "functionName": "centerIn",
-                            "line": 70,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
                             "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 86,
-                            "message": "Could not find signal \"clicked\"."
+                            "functionName": "fill",
+                            "line": 15,
+                            "message": "Could not find property \"fill\"."
                         }
                     ],
-                    "filePath": "C:/SGPL/SGPL/Main.qml"
+                    "filePath": "D:/final_project/SGPL/Main.qml"
                 }
             ],
             "moduleId": "SGPL(appSGPL)"
