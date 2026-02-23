@@ -1,0 +1,6 @@
+module SGPL
+typeinfo appSGPL.qmltypes
+prefer :/qt/qml/SGPL/
+Main 254.0 Main.qml
+depends QtQuick
+

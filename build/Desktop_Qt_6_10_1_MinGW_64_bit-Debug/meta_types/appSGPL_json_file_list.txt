@@ -1,0 +1,2 @@
+C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include/../EWIEGA46WW/moc_catalogocontroller.cpp.json
+C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include/../EWIEGA46WW/moc_produto.cpp.json
