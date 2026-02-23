@@ -376,14 +376,6 @@ appSGPL_autogen/timestamp: \
 	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake \
 	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets-relwithdebinfo.cmake \
 	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-relwithdebinfo.cmake \
-	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake \
 	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake \
 	C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets-relwithdebinfo.cmake \
@@ -897,17 +889,17 @@ appSGPL_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	C:/SGPL/SGPL/CMakeLists.txt \
-	C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/qml_imports/appSGPL_conf.cmake \
-	C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
-	C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
-	C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h \
-	C:/SGPL/SGPL/catalogocontroller.cpp \
-	C:/SGPL/SGPL/catalogocontroller.h \
-	C:/SGPL/SGPL/main.cpp \
-	C:/SGPL/SGPL/produto.cpp \
-	C:/SGPL/SGPL/produto.h \
+	D:/final_project/SGPL/CMakeLists.txt \
+	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/qml_imports/appSGPL_conf.cmake \
+	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
+	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
+	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h \
+	D:/final_project/SGPL/catalogocontroller.cpp \
+	D:/final_project/SGPL/catalogocontroller.h \
+	D:/final_project/SGPL/main.cpp \
+	D:/final_project/SGPL/produto.cpp \
+	D:/final_project/SGPL/produto.h \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

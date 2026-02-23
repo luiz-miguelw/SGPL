@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-22418f65d9eb8a63d973.json",
+					"jsonFile" : "directory-.-Debug-6895b26ebbbe3606c3d2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -72,7 +72,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_aotstats-Debug-1aa19e3a28fa3ebdeaff.json",
+					"jsonFile" : "target-all_aotstats-Debug-204992a613ffbd99e5c9.json",
 					"name" : "all_aotstats",
 					"projectIndex" : 0
 				},
@@ -107,7 +107,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appSGPL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appSGPL-Debug-405b5d6ef02607ed237e.json",
+					"jsonFile" : "target-appSGPL-Debug-1e470058e79cfac117c7.json",
 					"name" : "appSGPL",
 					"projectIndex" : 0
 				},
@@ -121,7 +121,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appSGPL_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appSGPL_autogen_timestamp_deps-Debug-73f87ccaa8b9c7431589.json",
+					"jsonFile" : "target-appSGPL_autogen_timestamp_deps-Debug-87ae40ec82d88e1f08ad.json",
 					"name" : "appSGPL_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
@@ -184,7 +184,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "module_appSGPL_aotstats_target::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module_appSGPL_aotstats_target-Debug-6690b13ab01e36523526.json",
+					"jsonFile" : "target-module_appSGPL_aotstats_target-Debug-d932dde532a7b5cabd71.json",
 					"name" : "module_appSGPL_aotstats_target",
 					"projectIndex" : 0
 				}
@@ -194,8 +194,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug",
-		"source" : "C:/SGPL/SGPL"
+		"build" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug",
+		"source" : "D:/final_project/SGPL"
 	},
 	"version" : 
 	{

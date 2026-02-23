@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/">
-    <file alias="/qt/qml/SGPL">C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/SGPL</file>
+    <file alias="/qt/qml/SGPL">D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/SGPL</file>
 
   </qresource>
 </RCC>

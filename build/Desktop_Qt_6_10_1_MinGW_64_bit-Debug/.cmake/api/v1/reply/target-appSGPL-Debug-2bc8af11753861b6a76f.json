@@ -28,12 +28,12 @@
 			"qt_add_qml_module",
 			"add_dependencies",
 			"_qt_internal_qml_copy_files_to_build_dir",
-			"_qt_internal_write_deferred_qmlls_build_ini_file",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
 			"cmake_language",
 			"_qt_internal_finalize_executable",
 			"qt6_finalize_target",
+			"_qt_internal_write_deferred_qmlls_build_ini_file",
 			"target_include_directories",
 			"_qt_internal_qml_type_registration",
 			"target_sources",
@@ -69,8 +69,8 @@
 			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
 			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
 			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1099:EVAL",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:846:EVAL"
+			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:846:EVAL",
+			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1099:EVAL"
 		],
 		"nodes" : 
 		[
@@ -104,13 +104,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 38,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 33,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -420,6 +420,47 @@
 				"parent" : 61
 			},
 			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 21,
+				"line" : 1,
+				"parent" : 63
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 877,
+				"parent" : 64
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 799,
+				"parent" : 65
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 799,
+				"parent" : 66
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 4780,
+				"parent" : 67
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 4555,
+				"parent" : 68
+			},
+			{
 				"command" : 14,
 				"file" : 10,
 				"line" : 976,
@@ -429,59 +470,18 @@
 				"command" : 13,
 				"file" : 10,
 				"line" : 3120,
-				"parent" : 63
-			},
-			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 15,
-				"file" : 21,
-				"line" : 1,
-				"parent" : 65
-			},
-			{
-				"command" : 13,
-				"file" : 10,
-				"line" : 1388,
-				"parent" : 66
+				"parent" : 70
 			},
 			{
 				"command" : 20,
 				"file" : 22,
 				"line" : 1,
-				"parent" : 65
-			},
-			{
-				"command" : 19,
-				"file" : 0,
-				"line" : 877,
-				"parent" : 68
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 799,
-				"parent" : 69
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 799,
-				"parent" : 70
-			},
-			{
-				"command" : 16,
-				"file" : 10,
-				"line" : 4780,
-				"parent" : 71
+				"parent" : 63
 			},
 			{
 				"command" : 13,
 				"file" : 10,
-				"line" : 4555,
+				"line" : 1388,
 				"parent" : 72
 			},
 			{
@@ -587,6 +587,30 @@
 				"parent" : 86
 			},
 			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3591,
+				"parent" : 86
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3784,
+				"parent" : 86
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3591,
+				"parent" : 86
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3784,
+				"parent" : 86
+			},
+			{
 				"command" : 28,
 				"file" : 10,
 				"line" : 3876,
@@ -596,31 +620,31 @@
 				"command" : 27,
 				"file" : 0,
 				"line" : 405,
-				"parent" : 91
+				"parent" : 95
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 2623,
-				"parent" : 92
+				"parent" : 96
 			},
 			{
 				"command" : 23,
 				"file" : 0,
 				"line" : 2163,
-				"parent" : 93
+				"parent" : 97
 			},
 			{
 				"command" : 31,
 				"file" : 0,
 				"line" : 871,
-				"parent" : 68
+				"parent" : 64
 			},
 			{
 				"command" : 23,
 				"file" : 0,
 				"line" : 2288,
-				"parent" : 95
+				"parent" : 99
 			}
 		]
 	},
@@ -700,11 +724,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include"
+					"path" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include"
 				},
 				{
 					"backtrace" : 75,
-					"path" : "C:/SGPL/SGPL"
+					"path" : "D:/final_project/SGPL"
 				},
 				{
 					"backtrace" : 76,
@@ -760,8 +784,11 @@
 				4,
 				6,
 				8,
-				9,
-				10
+				10,
+				11,
+				13,
+				15,
+				16
 			]
 		},
 		{
@@ -842,11 +869,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include"
+					"path" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include"
 				},
 				{
 					"backtrace" : 75,
-					"path" : "C:/SGPL/SGPL"
+					"path" : "D:/final_project/SGPL"
 				},
 				{
 					"backtrace" : 76,
@@ -908,23 +935,23 @@
 			"id" : "appSGPL_copy_qml::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 64,
+			"backtrace" : 69,
+			"id" : "appSGPL_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 71,
 			"id" : "appSGPL_copy_res::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 67,
+			"backtrace" : 73,
 			"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 73,
-			"id" : "appSGPL_qmlimportscan::@6890427a1f51a3e7e1df"
+			"id" : "appSGPL_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "appSGPL_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "appSGPL_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appSGPL::@6890427a1f51a3e7e1df",
@@ -1063,18 +1090,20 @@
 				2,
 				3,
 				4,
-				8,
-				9,
 				10,
 				11,
 				13,
-				14,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28
+				15,
+				16,
+				17,
+				19,
+				20,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
 			]
 		},
 		{
@@ -1083,35 +1112,41 @@
 			[
 				1,
 				6,
-				7
+				8,
+				9,
+				12,
+				14
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				5
+				5,
+				7
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				12
+				18
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
 				21,
-				22
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
 			]
 		}
 	],
@@ -1162,6 +1197,17 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 85,
+			"path" : "catalogocontroller.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 0,
+			"path" : "catalogocontroller.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 87,
 			"path" : "Main.qml",
 			"sourceGroupIndex" : 1
@@ -1181,26 +1227,50 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 91,
+			"path" : "MenuPrincipal.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_MenuPrincipal_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 93,
+			"path" : "VitrineProdutos.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_SGPL.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/SGPL/qmldir",
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appSGPL_raw_qml_0.qrc",
 			"sourceGroupIndex" : 0
@@ -1239,6 +1309,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_MenuPrincipal_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp.rule",
 			"sourceGroupIndex" : 4
 		},
 		{

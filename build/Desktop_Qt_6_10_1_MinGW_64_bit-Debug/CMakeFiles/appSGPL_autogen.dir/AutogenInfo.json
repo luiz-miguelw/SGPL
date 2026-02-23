@@ -1,19 +1,19 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen",
-	"CMAKE_BINARY_DIR" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/SGPL/SGPL",
+	"BUILD_DIR" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen",
+	"CMAKE_BINARY_DIR" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/final_project/SGPL",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/SGPL/SGPL/CMakeLists.txt",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+		"D:/final_project/SGPL/CMakeLists.txt",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -26,7 +26,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -446,16 +446,6 @@
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets-relwithdebinfo.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2AdditionalTargetInfo.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets.cmake",
@@ -665,8 +655,6 @@
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagehelperspluginConfig.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginConfig.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake",
-		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginConfig.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginConfig.cmake",
@@ -873,25 +861,30 @@
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/qml_imports/appSGPL_conf.cmake"
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/qml_imports/appSGPL_conf.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/SGPL/SGPL",
+	"CMAKE_SOURCE_DIR" : "D:/final_project/SGPL",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/deps",
+	"DEP_FILE" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appSGPL_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/SGPL/SGPL/catalogocontroller.h",
+			"D:/final_project/SGPL/catalogocontroller.h",
 			"MU",
 			"EWIEGA46WW/moc_catalogocontroller.cpp",
 			null
 		],
-		[ "C:/SGPL/SGPL/produto.h", "MU", "EWIEGA46WW/moc_produto.cpp", null ]
+		[
+			"D:/final_project/SGPL/produto.h",
+			"MU",
+			"EWIEGA46WW/moc_produto.cpp",
+			null
+		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -919,7 +912,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/SGPL/SGPL",
+		"D:/final_project/SGPL",
 		"C:/Qt/6.10.1/mingw_64/include/QtQml",
 		"C:/Qt/6.10.1/mingw_64/include",
 		"C:/Qt/6.10.1/mingw_64/include/QtCore",
@@ -955,39 +948,43 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appSGPL_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SGPL.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_Main_qml.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_qmlcache_loader.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appsgpl_qmltyperegistrations.cpp"
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SGPL.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_Main_qml.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_MenuPrincipal_qml.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_qmlcache_loader.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appsgpl_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/appSGPL_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/appSGPL_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.10.1/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/appSGPL_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/appSGPL_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/SGPL/SGPL/catalogocontroller.cpp", "MU", null ],
-		[ "C:/SGPL/SGPL/main.cpp", "MU", null ],
-		[ "C:/SGPL/SGPL/produto.cpp", "MU", null ]
+		[ "D:/final_project/SGPL/catalogocontroller.cpp", "MU", null ],
+		[ "D:/final_project/SGPL/main.cpp", "MU", null ],
+		[ "D:/final_project/SGPL/produto.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SGPL.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_Main_qml.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_qmlcache_loader.cpp",
-		"C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appsgpl_qmltyperegistrations.cpp"
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appSGPL_raw_qml_0.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SGPL.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_Main_qml.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_MenuPrincipal_qml.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_VitrineProdutos_qml.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSGPL_qmlcache_loader.cpp",
+		"D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appsgpl_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,

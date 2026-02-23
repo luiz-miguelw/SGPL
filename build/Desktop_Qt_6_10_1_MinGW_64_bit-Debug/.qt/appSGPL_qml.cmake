@@ -1,9 +1,13 @@
 
 set(target "appSGPL")
-set(working_dir "C:/SGPL/SGPL")
+set(working_dir "D:/final_project/SGPL")
 set(src_and_dest_list
-    "C:/SGPL/SGPL/Main.qml"
-    "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/SGPL/Main.qml"
+    "D:/final_project/SGPL/Main.qml"
+    "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/SGPL/Main.qml"
+    "D:/final_project/SGPL/MenuPrincipal.qml"
+    "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/SGPL/MenuPrincipal.qml"
+    "D:/final_project/SGPL/VitrineProdutos.qml"
+    "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/SGPL/VitrineProdutos.qml"
 
 )
-set(timestamp_file "C:/SGPL/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/appSGPL_qml.txt")
+set(timestamp_file "D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/appSGPL_qml.txt")
