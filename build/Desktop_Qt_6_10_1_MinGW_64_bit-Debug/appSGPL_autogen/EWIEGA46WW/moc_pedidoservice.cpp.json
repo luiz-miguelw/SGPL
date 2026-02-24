@@ -1,0 +1,52 @@
+{
+    "classes": [
+        {
+            "className": "PedidoService",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "itens",
+                            "type": "QList<ItemPedido*>"
+                        },
+                        {
+                            "name": "endereco",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "pagamento",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "agendamento",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 17,
+                    "name": "realizarPedido",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 20,
+                    "name": "listarPedidos",
+                    "returnType": "QList<Pedido*>"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "PedidoService",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "pedidoservice.h",
+    "outputRevision": 69
+}

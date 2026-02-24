@@ -1,0 +1,9 @@
+--resource
+D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_SGPL.qrc
+--resource
+D:/final_project/SGPL/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appSGPL_raw_qml_0.qrc
+/qt/qml/SGPL/Main.qml
+/qt/qml/SGPL/MenuPrincipal.qml
+/qt/qml/SGPL/VitrineProdutos.qml
+/qt/qml/SGPL/RealizarPedido.qml
+/qt/qml/SGPL/ListarPedidos.qml

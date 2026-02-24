@@ -1,0 +1,570 @@
+[
+    {
+        "classes": [
+            {
+                "className": "PedidoController",
+                "lineNumber": 11,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "produtoObj",
+                                "type": "QObject*"
+                            },
+                            {
+                                "name": "quantidade",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 18,
+                        "name": "adicionarItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 19,
+                        "name": "limparItens",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "endereco",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "pagamento",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "agendamento",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 20,
+                        "name": "realizarPedido",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 21,
+                        "name": "listarPedidos",
+                        "returnType": "QList<Pedido*>"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "PedidoController",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "PedidoController.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CatalogoController",
+                "lineNumber": 8,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "nome",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "preco",
+                                "type": "double"
+                            },
+                            {
+                                "name": "estoque",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 21,
+                        "name": "adicionarProduto",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 12,
+                        "name": "produtos",
+                        "notify": "produtosChanged",
+                        "read": "produtos",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<QObject*>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "CatalogoController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 24,
+                        "name": "produtosChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "catalogocontroller.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ItemPedido",
+                "lineNumber": 8,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 12,
+                        "name": "nomeProduto",
+                        "notify": "itemChanged",
+                        "read": "nomeProduto",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 13,
+                        "name": "quantidade",
+                        "notify": "itemChanged",
+                        "read": "quantidade",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setQuantidade"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 14,
+                        "name": "subtotal",
+                        "notify": "itemChanged",
+                        "read": "subtotal",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "ItemPedido",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 27,
+                        "name": "itemChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "itempedido.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Pedido",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "produto",
+                                "type": "Produto*"
+                            },
+                            {
+                                "name": "quantidade",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 26,
+                        "name": "adicionarItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "isConst": true,
+                        "lineNumber": 27,
+                        "name": "itens",
+                        "returnType": "QList<ItemPedido*>"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "isConst": true,
+                        "lineNumber": 30,
+                        "name": "total",
+                        "returnType": "double"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 13,
+                        "name": "id",
+                        "notify": "idChanged",
+                        "read": "id",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setId"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 14,
+                        "name": "total",
+                        "notify": "pedidoChanged",
+                        "read": "total",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 15,
+                        "name": "endereco",
+                        "notify": "pedidoChanged",
+                        "read": "endereco",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setEndereco"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 16,
+                        "name": "pagamento",
+                        "notify": "pedidoChanged",
+                        "read": "pagamento",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setPagamento"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 17,
+                        "name": "agendamento",
+                        "notify": "pedidoChanged",
+                        "read": "agendamento",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAgendamento"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 18,
+                        "name": "status",
+                        "notify": "pedidoChanged",
+                        "read": "status",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setStatus"
+                    }
+                ],
+                "qualifiedClassName": "Pedido",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 45,
+                        "name": "pedidoChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 46,
+                        "name": "idChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "pedido.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "PedidoService",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "itens",
+                                "type": "QList<ItemPedido*>"
+                            },
+                            {
+                                "name": "endereco",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "pagamento",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "agendamento",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 17,
+                        "name": "realizarPedido",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 20,
+                        "name": "listarPedidos",
+                        "returnType": "QList<Pedido*>"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "PedidoService",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "pedidoservice.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Produto",
+                "lineNumber": 6,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 9,
+                        "name": "id",
+                        "notify": "idChanged",
+                        "read": "id",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setId"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 10,
+                        "name": "nome",
+                        "notify": "nomeChanged",
+                        "read": "nome",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setNome"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 11,
+                        "name": "preco",
+                        "notify": "precoChanged",
+                        "read": "preco",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setPreco"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 12,
+                        "name": "estoque",
+                        "notify": "estoqueChanged",
+                        "read": "estoque",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setEstoque"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 13,
+                        "name": "sobEncomenda",
+                        "notify": "estoqueChanged",
+                        "read": "sobEncomenda",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Produto",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 34,
+                        "name": "idChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 35,
+                        "name": "nomeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 36,
+                        "name": "precoChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 37,
+                        "name": "estoqueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 38,
+                        "name": "produtoChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "produto.h",
+        "outputRevision": 69
+    }
+]

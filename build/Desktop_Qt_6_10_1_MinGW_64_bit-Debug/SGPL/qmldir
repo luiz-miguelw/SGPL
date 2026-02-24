@@ -1,0 +1,10 @@
+module SGPL
+typeinfo appSGPL.qmltypes
+prefer :/qt/qml/SGPL/
+Main 1.0 Main.qml
+MenuPrincipal 1.0 MenuPrincipal.qml
+VitrineProdutos 1.0 VitrineProdutos.qml
+RealizarPedido 1.0 RealizarPedido.qml
+ListarPedidos 1.0 ListarPedidos.qml
+depends QtQuick
+

@@ -1,0 +1,72 @@
+{
+    "classes": [
+        {
+            "className": "PedidoController",
+            "lineNumber": 11,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "produtoObj",
+                            "type": "QObject*"
+                        },
+                        {
+                            "name": "quantidade",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 18,
+                    "name": "adicionarItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 19,
+                    "name": "limparItens",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "endereco",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "pagamento",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "agendamento",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 20,
+                    "name": "realizarPedido",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 21,
+                    "name": "listarPedidos",
+                    "returnType": "QList<Pedido*>"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "PedidoController",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "PedidoController.h",
+    "outputRevision": 69
+}

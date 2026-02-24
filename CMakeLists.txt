@@ -4,7 +4,9 @@ project(SGPL VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick)
+# --- CORREÇÃO PRINCIPAL ---
+# Adicionado "Sql" aqui. Sem isso, o CMake não encontra o módulo de banco de dados.
+find_package(Qt6 REQUIRED COMPONENTS Quick Sql)
 
 qt_standard_project_setup(REQUIRES 6.8)
 
@@ -26,27 +28,18 @@ qt_add_qml_module(appSGPL
     SOURCES
         produto.h
         produto.cpp
-
-    SOURCES
         catalogocontroller.h
         catalogocontroller.cpp
-
-    SOURCES
         pedidoservice.h
         pedidoservice.cpp
-
-    SOURCES
         pedido.h
         pedido.cpp
-
-    SOURCES
         itempedido.h
         itempedido.cpp
-
-    SOURCES
         PedidoController.h
         PedidoController.cpp
 )
+
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
@@ -58,8 +51,10 @@ set_target_properties(appSGPL PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+# Agora o target Qt6::Sql será encontrado porque adicionamos no find_package lá em cima
 target_link_libraries(appSGPL
     PRIVATE Qt6::Quick
+    PRIVATE Qt6::Sql
 )
 
 include(GNUInstallDirs)

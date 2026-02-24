@@ -1,0 +1,166 @@
+{
+    "classes": [
+        {
+            "className": "Pedido",
+            "lineNumber": 10,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "produto",
+                            "type": "Produto*"
+                        },
+                        {
+                            "name": "quantidade",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 26,
+                    "name": "adicionarItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "isConst": true,
+                    "lineNumber": 27,
+                    "name": "itens",
+                    "returnType": "QList<ItemPedido*>"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "isConst": true,
+                    "lineNumber": 30,
+                    "name": "total",
+                    "returnType": "double"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 13,
+                    "name": "id",
+                    "notify": "idChanged",
+                    "read": "id",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setId"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 14,
+                    "name": "total",
+                    "notify": "pedidoChanged",
+                    "read": "total",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 15,
+                    "name": "endereco",
+                    "notify": "pedidoChanged",
+                    "read": "endereco",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setEndereco"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 16,
+                    "name": "pagamento",
+                    "notify": "pedidoChanged",
+                    "read": "pagamento",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPagamento"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 17,
+                    "name": "agendamento",
+                    "notify": "pedidoChanged",
+                    "read": "agendamento",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setAgendamento"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 18,
+                    "name": "status",
+                    "notify": "pedidoChanged",
+                    "read": "status",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setStatus"
+                }
+            ],
+            "qualifiedClassName": "Pedido",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 45,
+                    "name": "pedidoChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 46,
+                    "name": "idChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "pedido.h",
+    "outputRevision": 69
+}
