@@ -13,13 +13,14 @@ class PedidoService : public QObject
 public:
     explicit PedidoService(QObject *parent = nullptr);
 
-    int realizarPedido(const QList<ItemPedido*> &itens, const QString &endereco, const QString &pagamento, const QString &agendamento);
+    // Método para salvar no banco
+    Q_INVOKABLE int realizarPedido(const QList<ItemPedido*> &itens, const QString &endereco, const QString &pagamento, const QString &agendamento);
 
-    QList<Pedido*> listarPedidos() const;
+    // Método para ler do banco (Sem 'const' no final!)
+    Q_INVOKABLE QList<Pedido*> listarPedidos();
 
 private:
     QList<Pedido*> m_pedidos;
-    int proximoId = 1;
 };
 
-#endif
+#endif // PEDIDOSERVICE_H

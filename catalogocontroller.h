@@ -25,6 +25,7 @@ signals:
 
 private:
     QList<QObject*> m_produtos;
+    void carregarProdutosDoBanco();
 };
 
 #endif // CATALOGOCONTROLLER_H
