@@ -25,3 +25,23 @@ double Pedido::total() const
 
     return soma;
 }
+
+QString Pedido::endereco() const { return m_endereco; }
+void Pedido::setEndereco(const QString &end) { 
+    if (m_endereco != end) { m_endereco = end; emit pedidoChanged(); } 
+}
+
+QString Pedido::pagamento() const { return m_pagamento; }
+void Pedido::setPagamento(const QString &pag) { 
+    if (m_pagamento != pag) { m_pagamento = pag; emit pedidoChanged(); } 
+}
+
+QString Pedido::agendamento() const { return m_agendamento; }
+void Pedido::setAgendamento(const QString &agd) { 
+    if (m_agendamento != agd) { m_agendamento = agd; emit pedidoChanged(); } 
+}
+
+QString Pedido::status() const { return m_status; }
+void Pedido::setStatus(const QString &st) { 
+    if (m_status != st) { m_status = st; emit pedidoChanged(); } 
+}

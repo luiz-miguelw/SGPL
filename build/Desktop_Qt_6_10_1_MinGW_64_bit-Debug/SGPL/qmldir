@@ -1,8 +1,0 @@
-module SGPL
-typeinfo appSGPL.qmltypes
-prefer :/qt/qml/SGPL/
-Main 254.0 Main.qml
-MenuPrincipal 254.0 MenuPrincipal.qml
-VitrineProdutos 254.0 VitrineProdutos.qml
-depends QtQuick
-

@@ -14,14 +14,39 @@ qt_add_executable(appSGPL
 
 qt_add_qml_module(appSGPL
     URI SGPL
+    VERSION 1.0
+
     QML_FILES
         Main.qml
-        SOURCES produto.h produto.cpp
-        SOURCES catalogocontroller.h catalogocontroller.cpp
-        QML_FILES MenuPrincipal.qml
-        QML_FILES VitrineProdutos.qml
-)
+        MenuPrincipal.qml
+        VitrineProdutos.qml
+        RealizarPedido.qml
+        ListarPedidos.qml
 
+    SOURCES
+        produto.h
+        produto.cpp
+
+    SOURCES
+        catalogocontroller.h
+        catalogocontroller.cpp
+
+    SOURCES
+        pedidoservice.h
+        pedidoservice.cpp
+
+    SOURCES
+        pedido.h
+        pedido.cpp
+
+    SOURCES
+        itempedido.h
+        itempedido.cpp
+
+    SOURCES
+        PedidoController.h
+        PedidoController.cpp
+)
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.

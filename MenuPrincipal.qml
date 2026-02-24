@@ -66,7 +66,30 @@ Page {
                 radius: 8
             }
 
-            onClicked: console.log("Ação: Redirecionar para tela de pedidos no futuro.")
+            onClicked: paginaMenu.StackView.view.push("RealizarPedido.qml")
         }
+        // Botão Listar Pedidos Realizados
+            Button {
+                id: btnListarPedidos
+                text: "Listar Pedidos"
+                Layout.fillWidth: true
+                Layout.preferredHeight: 50
+
+                contentItem: Text {
+                    text: btnListarPedidos.text
+                    font.pixelSize: 16
+                    font.bold: true
+                    color: "white"
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                }
+
+                background: Rectangle {
+                    color: btnListarPedidos.down ? "#8b1a1a" : "#b22222"
+                    radius: 8
+                }
+
+                onClicked: paginaMenu.StackView.view.push("ListarPedidos.qml")
+            }
     }
-}
+}   

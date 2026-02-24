@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QList>
+#include <QString>
 #include "pedido.h"
 
 class PedidoService : public QObject
@@ -12,7 +13,7 @@ class PedidoService : public QObject
 public:
     explicit PedidoService(QObject *parent = nullptr);
 
-    int realizarPedido(const QList<ItemPedido*> &itens, const QString &endereco);
+    int realizarPedido(const QList<ItemPedido*> &itens, const QString &endereco, const QString &pagamento, const QString &agendamento);
 
     QList<Pedido*> listarPedidos() const;
 
