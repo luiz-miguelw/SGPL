@@ -4,6 +4,7 @@
 #include <QSqlError>
 #include <QDebug>
 #include <QVariant>
+#include "produto.h" // Necessário para criar os objetos Produto
 
 PedidoService::PedidoService(QObject *parent)
     : QObject(parent)
@@ -14,13 +15,11 @@ int PedidoService::realizarPedido(const QList<ItemPedido*> &itens, const QString
 {
     QSqlDatabase db = QSqlDatabase::database();
 
-    // 1. Inicia Transação (Segurança: ou salva tudo, ou não salva nada)
     if (!db.transaction()) {
         qCritical() << "Erro ao iniciar transação:" << db.lastError().text();
         return -1;
     }
 
-    // 2. Insere o Cabeçalho do Pedido na tabela 'pedido'
     QSqlQuery query;
     query.prepare("INSERT INTO pedido (endereco, pagamento, agendamento, status) "
                   "VALUES (:end, :pag, :agd, :status)");
@@ -31,24 +30,21 @@ int PedidoService::realizarPedido(const QList<ItemPedido*> &itens, const QString
 
     if (!query.exec()) {
         qCritical() << "Erro ao inserir pedido:" << query.lastError().text();
-        db.rollback(); // Cancela tudo
+        db.rollback();
         return -1;
     }
 
-    // Pega o ID gerado automaticamente pelo banco (Ex: Pedido nº 1, nº 2...)
     int pedidoId = query.lastInsertId().toInt();
 
-    // 3. Processa cada item do pedido
     for (ItemPedido *item : itens)
     {
         Produto* p = item->getProduto();
 
-        // A) Insere na tabela de relacionamento 'item_pedido'
         QSqlQuery queryItem;
         queryItem.prepare("INSERT INTO item_pedido (pedido_id, produto_id, quantidade) "
                           "VALUES (:pedId, :prodId, :qtd)");
         queryItem.bindValue(":pedId", pedidoId);
-        queryItem.bindValue(":prodId", p->id()); // Assume que Produto tem id()
+        queryItem.bindValue(":prodId", p->id());
         queryItem.bindValue(":qtd", item->quantidade());
 
         if (!queryItem.exec()) {
@@ -57,8 +53,6 @@ int PedidoService::realizarPedido(const QList<ItemPedido*> &itens, const QString
             return -1;
         }
 
-        // B) Atualiza o estoque na tabela 'produto'
-        // SQL: UPDATE produto SET estoque = estoque - X WHERE id = Y
         QSqlQuery queryEstoque;
         queryEstoque.prepare("UPDATE produto SET estoque = estoque - :qtd WHERE id = :prodId");
         queryEstoque.bindValue(":qtd", item->quantidade());
@@ -71,13 +65,10 @@ int PedidoService::realizarPedido(const QList<ItemPedido*> &itens, const QString
         }
     }
 
-    // 4. Se chegou aqui, deu tudo certo. Confirma a gravação permanente.
     if (db.commit()) {
         qDebug() << "Pedido" << pedidoId << "realizado com sucesso!";
-        // Opcional: Recarregar a lista local se você mantiver m_pedidos
         return pedidoId;
     } else {
-        qCritical() << "Erro no commit:" << db.lastError().text();
         db.rollback();
         return -1;
     }
@@ -85,24 +76,47 @@ int PedidoService::realizarPedido(const QList<ItemPedido*> &itens, const QString
 
 QList<Pedido*> PedidoService::listarPedidos()
 {
-    // Limpa a lista da memória para recarregar do banco (evita duplicatas)
     qDeleteAll(m_pedidos);
     m_pedidos.clear();
 
+    // 1. Busca todos os pedidos
     QSqlQuery query("SELECT id, endereco, pagamento, agendamento, status FROM pedido ORDER BY id DESC");
 
     while (query.next()) {
-        Pedido *p = new Pedido(this);
-        p->setId(query.value("id").toInt());
-        p->setEndereco(query.value("endereco").toString());
-        p->setPagamento(query.value("pagamento").toString());
-        p->setAgendamento(query.value("agendamento").toString());
-        p->setStatus(query.value("status").toString());
+        Pedido *pedido = new Pedido(this);
+        int idPedido = query.value("id").toInt();
 
-        // Nota: Por enquanto estamos carregando só o cabeçalho.
-        // Se quiser exibir os itens na lista de histórico, precisaria fazer outra query aqui.
+        pedido->setId(idPedido);
+        pedido->setEndereco(query.value("endereco").toString());
+        pedido->setPagamento(query.value("pagamento").toString());
+        pedido->setAgendamento(query.value("agendamento").toString());
+        pedido->setStatus(query.value("status").toString());
 
-        m_pedidos.append(p);
+        // 2. AGORA O PULO DO GATO:
+        // Para cada pedido, buscamos os itens associados no banco
+        // Fazemos um JOIN para pegar também o preço do produto na tabela 'produto'
+        QSqlQuery queryItens;
+        queryItens.prepare("SELECT i.quantidade, p.nome, p.preco "
+                           "FROM item_pedido i "
+                           "INNER JOIN produto p ON i.produto_id = p.id "
+                           "WHERE i.pedido_id = :pid");
+        queryItens.bindValue(":pid", idPedido);
+
+        if (queryItens.exec()) {
+            while (queryItens.next()) {
+                int qtd = queryItens.value("quantidade").toInt();
+                double preco = queryItens.value("preco").toDouble();
+                QString nome = queryItens.value("nome").toString();
+
+                // Criamos um produto temporário apenas para calcular o total na memória
+                Produto *prodTemp = new Produto(nome, preco, 0, pedido);
+
+                // Adicionamos ao pedido (isso faz o cálculo do total funcionar automaticamente)
+                pedido->adicionarItem(prodTemp, qtd);
+            }
+        }
+
+        m_pedidos.append(pedido);
     }
 
     return m_pedidos;

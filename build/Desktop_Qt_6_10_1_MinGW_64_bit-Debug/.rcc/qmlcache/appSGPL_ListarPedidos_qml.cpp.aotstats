@@ -6,11 +6,27 @@
                 {
                     "entries": [
                         {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "onVisibleChanged",
+                            "line": 16,
+                            "message": "Could not find signal \"visibleChanged\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 111,
+                            "functionName": "onCompleted",
+                            "line": 11,
+                            "message": "Cannot access value for name pedidoController"
+                        },
+                        {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 231,
+                            "durationMicroseconds": 127,
                             "functionName": "fill",
-                            "line": 12,
+                            "line": 26,
                             "message": ""
                         },
                         {
@@ -18,23 +34,23 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 21,
+                            "line": 35,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 85,
                             "functionName": "verticalAlignment",
-                            "line": 18,
+                            "line": 32,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 42,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 48,
                             "functionName": "horizontalAlignment",
-                            "line": 19,
+                            "line": 33,
                             "message": ""
                         },
                         {
@@ -42,104 +58,168 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 29,
+                            "line": 43,
                             "message": "Could not find property \"horizontalAlignment\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 58,
-                            "functionName": "onCompleted",
-                            "line": 35,
-                            "message": "Cannot access value for name pedidoController"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 23,
-                            "durationMicroseconds": 62,
-                            "functionName": "fill",
-                            "line": 40,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 51,
+                            "line": 54,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 112,
-                            "durationMicroseconds": 57,
-                            "functionName": "horizontalAlignment",
-                            "line": 49,
+                            "column": 40,
+                            "durationMicroseconds": 52,
+                            "functionName": "verticalAlignment",
+                            "line": 51,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 150,
-                            "durationMicroseconds": 49,
-                            "functionName": "verticalAlignment",
-                            "line": 49,
+                            "column": 42,
+                            "durationMicroseconds": 58,
+                            "functionName": "horizontalAlignment",
+                            "line": 52,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 41,
+                            "functionName": "fill",
+                            "line": 60,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 53,
+                            "functionName": "model",
+                            "line": 72,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 111,
                             "functionName": "width",
-                            "line": 64,
-                            "message": "Cannot access value for name listaPedidos"
+                            "line": 75,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 34,
                             "functionName": "fill",
-                            "line": 71,
+                            "line": 83,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 320,
+                            "column": 35,
+                            "durationMicroseconds": 243,
                             "functionName": "text",
-                            "line": 75,
+                            "line": 90,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 195,
+                            "column": 36,
+                            "durationMicroseconds": 136,
+                            "functionName": "color",
+                            "line": 95,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 85,
+                            "functionName": "width",
+                            "line": 97,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 196,
                             "functionName": "text",
-                            "line": 76,
+                            "line": 101,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 880,
+                            "column": 40,
+                            "durationMicroseconds": 167,
+                            "functionName": "color",
+                            "line": 103,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 38,
+                            "functionName": "centerIn",
+                            "line": 100,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 188,
                             "functionName": "text",
-                            "line": 77,
+                            "line": 114,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 60,
+                            "durationMicroseconds": 45,
+                            "functionName": "elide",
+                            "line": 116,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 173,
+                            "functionName": "text",
+                            "line": 123,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 180,
+                            "column": 35,
+                            "durationMicroseconds": 325,
                             "functionName": "text",
-                            "line": 78,
+                            "line": 127,
                             "message": "Cannot access value for name modelData"
                         },
                         {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 49,
+                            "functionName": "alignment",
+                            "line": 139,
+                            "message": ""
+                        },
+                        {
                             "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 179,
+                            "column": 35,
+                            "durationMicroseconds": 190,
                             "functionName": "text",
-                            "line": 79,
+                            "line": 144,
                             "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 42,
+                            "functionName": "alignment",
+                            "line": 146,
+                            "message": ""
                         }
                     ],
                     "filePath": "D:/final_project/SGPL/ListarPedidos.qml"
